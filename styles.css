@@ -469,7 +469,7 @@ footer a {
         #about div {
         gap:3rem
         }
-        
+
         #contact fieldset {
         max-width:100%;
         min-width:100%
@@ -576,11 +576,11 @@ footer a {
         }
         
         header h1 {
-        top:8vw
+        top:8vh;
         }
         
         header p {
-        top:10vw
+        top:10vh;
         }
         
         nav {
