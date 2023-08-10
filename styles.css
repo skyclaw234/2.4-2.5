@@ -58,7 +58,7 @@ table {
     width: auto;
     height: auto;
 }
-/* ---------BODY STYLES-------- */
+/* BODY */
 body {
     color:var(--black);
     font-family:var(--monsterratFont);
@@ -232,6 +232,9 @@ p,q,nav a,form {
     height:100px;
     width:100px; 
 }
+#about h3{
+    padding-bottom: 5rem;
+}
 
 /*Contact*/
 #contact h3 span {
@@ -299,10 +302,6 @@ footer a {
         grid-template-rows:1fr;
         margin:0 10vw;
         padding:0
-        }
-        
-        #about h3 {
-        justify-self:left
         }
         
         #contact {
