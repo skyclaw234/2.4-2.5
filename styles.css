@@ -294,6 +294,11 @@ footer a {
     flex-direction:column;
 }
 
+h3{
+    padding: 3vh;
+
+}
+
 /* Begin medium format */
 @media screen and (min-width: 780px) {
     #about div {
@@ -346,7 +351,7 @@ footer a {
         display:flex;
         flex-direction:column;
         justify-content:center;
-        margin:0 8vw
+        margin:0 8vw;
         }
         
         #logo img {
@@ -497,7 +502,6 @@ footer a {
         display:grid;
         grid-template-columns:42% 1fr;
         grid-template-rows:repeat(3,auto);
-        margin-top:10vh
         }
         
         #intro #img-grid {
@@ -512,11 +516,12 @@ footer a {
         }
         
         #intro p {
+        font-size: 1.2rem;
         grid-column:1/2;
         grid-row:1/2;
         line-height:1.5;
         position:relative;
-        top:10vh
+        top:10vh;
         }
         
         #logo img {
